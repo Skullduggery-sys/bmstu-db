@@ -1,7 +1,7 @@
-package main
+package faker
 
 import "github.com/jaswdr/faker"
 
-type Faker struct {
-	Fake faker.Faker
+type DataGen struct {
+	fake faker.Faker
 }

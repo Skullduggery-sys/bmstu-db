@@ -1,10 +1,15 @@
-package main
+package faker
+type User struct {
+	Nickname string
+	Name     string
+	Surname  string
+	Email    string
+	Password string
+}
+
+type
 
 type Category string
-
-type User struct {
-	nick
-}
 
 func (f *Faker) GenCategories() []Category {
 	return []Category{

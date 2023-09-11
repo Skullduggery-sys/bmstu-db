@@ -29,7 +29,8 @@ CREATE TABLE IF NOT EXISTS public.order (
     id serial,
     time timestamp,
     status int,
-    userID int
+    userID int,
+    productID int
 );
 
 CREATE TABLE IF NOT EXISTS public.reviews (
