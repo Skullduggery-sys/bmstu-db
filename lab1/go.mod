@@ -1,4 +1,4 @@
-module lab1
+module lab1_db
 
 go 1.21.1
 

@@ -30,7 +30,7 @@ ADD PRIMARY KEY (id);
 ALTER TABLE public.order
 ADD PRIMARY KEY (id),
 ALTER COLUMN time SET NOT NULL,
-ADD FOREIGN KEY (status) REFERENCES public.status (id),
+ADD FOREIGN KEY (statusID) REFERENCES public.status (id),
 ADD FOREIGN KEY (userID) REFERENCES public.reviews (id),
 ADD FOREIGN KEY (productID) REFERENCES public.product (id);
 

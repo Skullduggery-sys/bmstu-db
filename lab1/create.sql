@@ -28,14 +28,14 @@ CREATE TABLE IF NOT EXISTS public.product (
 CREATE TABLE IF NOT EXISTS public.order (
     id serial,
     time timestamp,
-    status int,
+    statusID int,
     userID int,
     productID int
 );
 
 CREATE TABLE IF NOT EXISTS public.reviews (
     id serial,
-    text text,
+    description text,
     rating int,
     userID int,
     productID int
